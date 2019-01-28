@@ -1,0 +1,25 @@
+.header{
+    display:flex;justify-content:space-around;align-items:center;
+    height:60px;box-shadow:0 0 3px 1px #ccc;
+    overflow:hidden;
+    .headerLeft{
+        overflow:hidden;flex:1;min-width:440px;height:60px;display:flex;
+    }
+    .logo{
+        width:198px;height:60px;
+        background:url(../../assets/logo.png) no-repeat center center;
+        background-size:auto 80%;
+        text-indent:-9999em;
+    }
+    .search{
+        flex:1;height:60px;max-width:242px;
+        display:flex;align-items: center;
+    }
+    .userInfo{
+        display:flex;justify-content:flex-end;align-items: center;
+        height:60px;padding:0 20px;
+        span{
+            margin-left:10px;
+        }
+    }
+}

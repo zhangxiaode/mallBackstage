@@ -1,0 +1,21 @@
+.wrap{
+    position:absolute;top:60px;bottom:0;left:0;right:0;
+    overflow:auto;
+    .sidebar{
+        width:200px;height:100%;background:#fff;
+        a{
+            display:block;height:60px;line-height:60px;padding:0 10px;
+            color:rgba(0, 0, 0, 0.65);
+            i{
+                margin-right:3px;
+            }
+            &:hover,&.actived{
+                color:#1890ff;
+            }
+        }
+    }
+    .content{
+        position:absolute;left:200px;right:0;top:0;bottom:0;
+        overflow:auto;
+    }
+}
